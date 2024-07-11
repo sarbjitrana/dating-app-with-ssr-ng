@@ -1,0 +1,33 @@
+<!-- app.component.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Dating App</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/matchmaking">Matchmaking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/chats">Chats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/notifications">Notifications</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/scene">Mountains</a>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="mt-4">
+  <span>My Dating App &copy; 2023</span>
+</footer>
